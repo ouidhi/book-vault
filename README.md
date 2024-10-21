@@ -77,6 +77,8 @@ The database includes the following key components:
 #
 ### Entity-Retlationship Diagram (ERD)
 
+![image](https://github.com/user-attachments/assets/48e3f578-9ec0-4070-807c-7a01aae5a3ec)
+
 #
 
 ### Creating the database using SQL
