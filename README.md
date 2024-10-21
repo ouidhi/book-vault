@@ -223,7 +223,7 @@ ORDER BY memberid, COUNT(bookid);
 
 #
 
-## 4. Conclusion
+### Conclusion
 
 This SQL database project demonstrates the creation and management of a library system database. The design follows best practices for relational databases, including the use of normalization to reduce redundancy and maintain data integrity through primary and foreign key constraints. 
 
