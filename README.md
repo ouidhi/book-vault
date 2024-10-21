@@ -19,7 +19,7 @@ This project involves creating a SQL database for a library management system. T
 **Skills:** Database design,Advanced SQL querying <br>
 
 **Other tools used:** draw.io (for ERD), Oracle SQL, GitHub <br>
-
+#
 ### Database components
 
 The database includes the following key components:
