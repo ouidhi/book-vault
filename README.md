@@ -85,11 +85,11 @@ The database includes the following key components:
 
 We use SQL to create the database and insert values to it. Please refer to the script below for detailed code. <br>
 
-Script: https://github.com/ouidhi/library-db-design/blob/1233e04c9b75c86a1a65439fbe11b4b2cc641755/dbs_creation.sql
+[Database creation](https://github.com/ouidhi/library-db-design/blob/1233e04c9b75c86a1a65439fbe11b4b2cc641755/dbs_creation.sql)
 #
 ### Querying some results
 
-Script: https://github.com/ouidhi/library-db-design/blob/1233e04c9b75c86a1a65439fbe11b4b2cc641755/queries.sql
+[Querying script](https://github.com/ouidhi/library-db-design/blob/1233e04c9b75c86a1a65439fbe11b4b2cc641755/queries.sql)
 
 After setting up the database, we can use SQL queries to retrieve meaningful data from it. <br>
 Below are some example queries:
