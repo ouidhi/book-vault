@@ -32,51 +32,40 @@ The database includes the following key components:
 
 **1. Members**
 
-   > Attributes: <br>
-   memberID: Unique identifier for each member. <br>
+   > memberID: Unique identifier for each member. <br>
    firstName, lastName: Personal details of the member. <br>
    phone, email: Contact details of the member. <br>
 
 **2. Genres**
 
-   Attributes: <br>
-   
-   genreID: Unique genre identifier. <br>
+   > genreID: Unique genre identifier. <br>
    GenreName, Category: Name and category of the genre. <br>
    PopularityRank: A rank for the genre based on its demand. <br>
    
 **3. Authors**
 
-   Attributes: <br>
-   
-   authorID: Unique identifier for authors. <br>
+   > authorID: Unique identifier for authors. <br>
    AuthorName: Name of the author. <br>
    BirthDate: Author’s date of birth. <br>
    Nationality, Gender: Personal information about the author. <br>
    
 **4. Publishers**
 
-   Attributes: <br>
-   
-   publisherID: Unique publisher identifier. <br>
+   > publisherID: Unique publisher identifier. <br>
    PublisherName: Name of the publisher. <br>
    ContactName: Name of the publisher's contact person. <br>
    Website, Address: Contact details of the publisher. <br>
    
 **5. Books**
 
-   Attributes: <br>
-   
-   bookID: Unique identifier for each book. <br>
+   > bookID: Unique identifier for each book. <br>
    authorID, publisherID, genreID: Foreign keys linking to the author, publisher, and genre. <br>
    Title: The title of the book. <br>
    Quantity: Number of copies available. <br>
     
 **6. Transactions**
 
-   Attributes: <br> 
-   
-   transactionID: Unique identifier for each transaction. <br>
+   > transactionID: Unique identifier for each transaction. <br>
    bookID, memberID, publisherID: Foreign keys linking to the book, member, and publisher. <br>
    checkoutDate: The date the book was borrowed. <br>
 #
