@@ -81,14 +81,24 @@ We use SQL to create the database and insert values to it. Please refer to the s
 
 [Database creation](https://github.com/ouidhi/library-db-design/blob/1233e04c9b75c86a1a65439fbe11b4b2cc641755/dbs_creation.sql)
 #
-### Querying some results
+## 🔍 Example Queries & Insights
 
-[Querying script](https://github.com/ouidhi/library-db-design/blob/1233e04c9b75c86a1a65439fbe11b4b2cc641755/queries.sql)
+| Query | Description |
+|-------|-------------|
+| `Books with ≥ 6 copies` | Inventory insights |
+| `Top 3 popular genres` | Genre demand ranking |
+| `Members with no transactions` | Inactive user discovery |
+| `Books from Sci-Fi & Fantasy` | Genre-based filtering via view |
+| `City with most members` | Demographic insights |
+| `Addresses with ‘Avenue’` | Address pattern search |
+| `Members more active than ID 23` | Transaction volume comparison |
+| `Books checked out in November` | Monthly usage trends |
 
-After setting up the database, we can use SQL queries to retrieve meaningful data from it. <br>
-Below are some example queries:
+See [`queries.sql`](https://github.com/ouidhi/library-db-design/blob/1233e04c9b75c86a1a65439fbe11b4b2cc641755/queries.sql) for the SQL statements.
 
-#
+---
+
+## 📊 Sample Output
 
 ### 1. **Books with Quantity Greater Than or Equal to 6**
 
@@ -99,6 +109,7 @@ SELECT title, quantity
 FROM book
 WHERE quantity >= 6;
 ```
+<img width="398" alt="Screenshot 2025-05-27 at 4 46 05 PM" src="https://github.com/user-attachments/assets/16f4e6ac-c14a-4fdc-9dde-dac3baac361d" />
 
 #
 
@@ -111,6 +122,7 @@ SELECT genrename, popularityrank
 FROM genre
 WHERE popularityrank <= 3;
 ```
+<img width="402" alt="Screenshot 2025-05-27 at 4 46 27 PM" src="https://github.com/user-attachments/assets/9e8ecd10-43ee-43a3-9de5-fa74b481d58d" />
 
 #
 
