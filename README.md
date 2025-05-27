@@ -1,25 +1,31 @@
-## Library Management System Database 
+# 📚 Book Vault: A Library Management System Database
 
-### Objective
-This project involves creating a SQL database for a library management system. The database manages information about members, books, transactions, publishers, authors, and genres. It ensures a structured and efficient way to keep track of library books, their authors, genres, and transactions made by members.
+Welcome to **Book Vault** – a structured and scalable SQL database project designed to manage the inner workings of a modern library. From members and books to genres, publishers, and transactions, this database is a full-stack backend solution to streamline library operations.
+
+### Features
+-  Query-ready, relational database with meaningful schema design
+-  Normalized structure for data integrity
+-  Complex SQL queries for deep insights
+-  ERD designed using Draw.io
+-  Built using Oracle SQL
 #
-### Table of contents
-
-1. Key Skills and Tools Used
-2. Database components
-3. Entity-Retlationship Diagram (ERD)
-4. Creating the database using SQL
-5. Querying some results
-6. Conclusion
+## 🛠️ Tech Stack & Skills
+- **Language**: SQL
+- **Tools**: Oracle SQL, draw.io, GitHub
+- **Skills**: Database design, Normalization, Advanced SQL querying
 #
-### Key Skills and Tools Used
 
-**Programming Languages:** SQL <br>
+## 🧱 Database Schema
 
-**Skills:** Database design,Advanced SQL querying <br>
+| Table        | Description |
+|--------------|-------------|
+| `members`    | Personal and contact details of library members |
+| `genres`     | Categorized genres with popularity rankings |
+| `authors`    | Biographical info on book authors |
+| `publishers` | Publisher info with contacts and website |
+| `books`      | Book inventory with links to author, genre, and publisher |
+| `transactions` | Track member-book borrow records |
 
-**Other tools used:** draw.io (for ERD), Oracle SQL, GitHub <br>
-#
 ### Database components
 
 The database includes the following key components:
