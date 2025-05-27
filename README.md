@@ -32,8 +32,7 @@ The database includes the following key components:
 
 **1. Members**
 
-   Attributes: <br>
-   
+   > Attributes: <br>
    memberID: Unique identifier for each member. <br>
    firstName, lastName: Personal details of the member. <br>
    phone, email: Contact details of the member. <br>
