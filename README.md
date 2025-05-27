@@ -126,37 +126,6 @@ WHERE popularityrank <= 3;
 
 #
 
-### 3. **Members Without Any Transactions**
-
-This query finds the members who have not made any transactions in the library by using a `LEFT OUTER JOIN`.
-
-```sql
-SELECT firstname, lastname
-FROM members m 
-LEFT OUTER JOIN transactions t ON m.memberID = t.memberID 
-WHERE transactionid IS NULL;
-```
-
-#
-
-### 4. **Books with Publishers Whose Genre is Science Fiction or Fantasy**
-
-This query creates a view that shows book titles, their publishers, and genre for books classified as science fiction or fantasy.
-
-```sql
-CREATE OR REPLACE VIEW publisher_genre AS
-SELECT title, publishername, genrename
-FROM book b 
-JOIN genre g ON b.genreid = g.genreid 
-JOIN publisher p ON b.publisherid = p.publisherid
-WHERE lower(genrename) = 'science fiction' 
-   OR lower(genrename) = 'fantasy';
-
-SELECT * FROM publisher_genre;
-```
-
-#
-
 ### 5. **City with Maximum and Minimum Members in Ascending Order**
 
 This query finds the cities with the maximum and minimum number of members, sorted by the number of members in ascending order.
@@ -181,6 +150,7 @@ HAVING COUNT(memberid) = (SELECT MIN(COUNT)
                                 GROUP BY city)))
 ORDER BY NO_OF_MEMBERS;
 ```
+<img width="207" alt="Screenshot 2025-05-27 at 4 55 55 PM" src="https://github.com/user-attachments/assets/0a55ce07-31e8-4277-a5d6-3f1607c9dde1" />
 
 #
 
@@ -195,25 +165,8 @@ WHERE lower(address) LIKE '%avenue%'
 GROUP BY city
 ORDER BY HAS_AVENUE;
 ```
+<img width="204" alt="Screenshot 2025-05-27 at 4 56 29 PM" src="https://github.com/user-attachments/assets/2d478780-783a-4b93-921b-88a641548838" />
 
-#
-
-### 7. **Members with More Transactions Than MemberID 23**
-
-This query identifies members who have more transactions than the member with `memberID` 23.
-
-```sql
-SELECT memberid, COUNT(transactionid) AS "NO_OF_TRANSACTIONS"
-FROM transactions
-GROUP BY memberid
-HAVING COUNT(transactionid) > (SELECT COUNT(transactionid)
-                               FROM transactions
-                               WHERE memberid = 23
-                               GROUP BY memberid)
-ORDER BY NO_OF_TRANSACTIONS DESC;
-```
-
-#
 
 ### 8. **Number of Books Checked Out in November by Each Member**
 
@@ -226,6 +179,7 @@ WHERE EXTRACT(MONTH FROM checkoutdate) = 11
 GROUP BY memberid, checkoutdate
 ORDER BY memberid, COUNT(bookid);
 ```
+<img width="337" alt="Screenshot 2025-05-27 at 4 58 39 PM" src="https://github.com/user-attachments/assets/5f1f0f83-7999-4794-913e-e644ad4a0b9a" />
 
 #
 
