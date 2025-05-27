@@ -239,11 +239,11 @@ Key takeaways from the project include:
 - Data integrity is maintained by enforcing constraints on relationships between entities, such as foreign key relationships between books and authors, books and genres, and transactions involving members.
   
 The database is ready for integration into a larger system that could include a user interface for library staff to manage inventory, members, and transactions efficiently. This system also ensures scalability and the ability to run complex queries for future reporting and analysis needs.
- 
 
+## 📬 Contact
 
-
-
+Created by **Vidhi**  
+🔗 [LinkedIn](https://www.linkedin.com/in/vidhi-parmar777/) | [Email](vidhi30th@gmail.com) 
 
 
 
