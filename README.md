@@ -100,20 +100,7 @@ See [`queries.sql`](https://github.com/ouidhi/library-db-design/blob/1233e04c9b7
 
 ## 📊 Sample Output
 
-### 1. **Books with Quantity Greater Than or Equal to 6**
-
-This query fetches all book titles that have a stock of 6 or more copies.
-
-```sql
-SELECT title, quantity 
-FROM book
-WHERE quantity >= 6;
-```
-<img width="398" alt="Screenshot 2025-05-27 at 4 46 05 PM" src="https://github.com/user-attachments/assets/16f4e6ac-c14a-4fdc-9dde-dac3baac361d" />
-
-#
-
-### 2. **Genres with Popularity Rank Less Than or Equal to 3**
+### 1. **Genres with Popularity Rank Less Than or Equal to 3**
 
 This query retrieves the genres that have a popularity rank of 3 or better.
 
@@ -126,7 +113,7 @@ WHERE popularityrank <= 3;
 
 #
 
-### 5. **City with Maximum and Minimum Members in Ascending Order**
+### 2. **City with Maximum and Minimum Members in Ascending Order**
 
 This query finds the cities with the maximum and minimum number of members, sorted by the number of members in ascending order.
 
@@ -154,7 +141,7 @@ ORDER BY NO_OF_MEMBERS;
 
 #
 
-### 6. **Cities with Addresses Containing 'Avenue'**
+### 3. **Cities with Addresses Containing 'Avenue'**
 
 This query finds the number of addresses that contain the word 'Avenue' in each city, ordered by the number of occurrences.
 
@@ -168,7 +155,7 @@ ORDER BY HAS_AVENUE;
 <img width="204" alt="Screenshot 2025-05-27 at 4 56 29 PM" src="https://github.com/user-attachments/assets/2d478780-783a-4b93-921b-88a641548838" />
 
 
-### 8. **Number of Books Checked Out in November by Each Member**
+### 4. **Number of Books Checked Out in November by Each Member**
 
 This query retrieves member IDs and the number of books they checked out during the month of November.
 
