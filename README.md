@@ -28,7 +28,7 @@ Welcome to **Book Vault** – a structured and scalable SQL database project des
 
 ### Database components
 
-The database includes the following key components:
+The database includes the following relations/ tables:
 
 **1. Members**
 
