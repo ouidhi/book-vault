@@ -183,7 +183,7 @@ The database is ready for integration into a larger system that could include a 
 
 ## 📬 Contact
 
-🔗 [LinkedIn](https://www.linkedin.com/in/vidhi-parmar777/) | [Email](vidhi30th@gmail.com) 
+🔗 [LinkedIn](https://www.linkedin.com/in/vidhi-parmar1/) | [Email](vidhi30th@gmail.com) 
 
 
 
