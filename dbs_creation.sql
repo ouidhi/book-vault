@@ -1,5 +1,5 @@
 --table members
-drop table member
+DROP TABLE member
 CREATE TABLE members(
 memberID INT PRIMARY KEY,
 firstName VARCHAR(25) NOT NULL,
