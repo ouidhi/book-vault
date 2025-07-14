@@ -1,4 +1,4 @@
-# 📚 Book Vault: A Library Management System Database
+# Book Vault: A Library Management System Database
 
 Welcome to **Book Vault** – a structured and scalable SQL database project designed to manage the inner workings of a modern library. From members and books to genres, publishers, and transactions, this database is a full-stack backend solution to streamline library operations.
 
@@ -9,13 +9,13 @@ Welcome to **Book Vault** – a structured and scalable SQL database project des
 -  ERD designed using Draw.io
 -  Built using Oracle SQL
 #
-## 🛠️ Tech Stack & Skills
+## Tech Stack & Skills
 - **Language**: SQL
 - **Tools**: Oracle SQL, draw.io, GitHub
 - **Skills**: Database design, Normalization, Advanced SQL querying
 #
 
-## 🧱 Database Schema
+## Database Schema
 
 | Table        | Description |
 |--------------|-------------|
@@ -98,7 +98,7 @@ See [`queries.sql`](https://github.com/ouidhi/library-db-design/blob/1233e04c9b7
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ### 1. **Genres with Popularity Rank Less Than or Equal to 3**
 
