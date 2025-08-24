@@ -1,6 +1,6 @@
 # Book Vault: A Library Management System Database
 
-Welcome to **Book Vault** – a structured and scalable SQL database project designed to manage the inner workings of a modern library. From members and books to genres, publishers, and transactions, this database is a full-stack backend solution to streamline library operations.
+Welcome to **Book Vault**,  a structured and scalable SQL database project designed to manage the inner workings of a modern library. From members and books to genres, publishers, and transactions, this database is a full-stack backend solution to streamline library operations.
 
 ### Features
 -  Query-ready, relational database with meaningful schema design
